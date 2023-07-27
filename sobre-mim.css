@@ -1,0 +1,237 @@
+/*************************************** NAVEGAÇÃO *************************************/
+nav{
+    background-color: rgba(0, 0,0, 0.7);
+    color: #fff;
+}
+nav a{
+    color: #fff !important;
+    text-transform: uppercase;
+    transition: .7s;
+}
+nav a:hover{
+    color: #c1c1c1 !important;
+    text-transform: uppercase;
+    text-decoration: underline !important;
+}
+.logo{
+    width: 52px;
+}
+.fa-bars{
+    color: #fff;
+}
+.ativado{
+    color: gold !important;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.ativado:hover{
+    color: rgb(187, 163, 29) !important;
+    text-decoration: none;
+}
+.divisor{
+    width: 1px;
+    background-color: #fff;
+    margin: 12px 15px;
+}
+/*************************************** FIM DA NAVEGAÇÃO ******************************/
+/*************************************** SEÇÃO 1 ***************************************/
+body, html, #sct-1{
+    width: 100%;
+    height: 100%;
+}
+#sct-1{
+    background: url(./images/guaxinim.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    padding-top: 10%;
+}
+#sct-1 h2{
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding: 2.5%;
+    text-align: center;
+}
+.caixa-1{
+    background: rgba(255, 255, 255, 0.8);
+    padding: 0;
+    border: 1px solid #000;
+    border-radius: 15px;
+    color: #000;
+}
+#sct-1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 2.5%;
+}
+.footer-caixa-1{
+    margin: 0;
+    text-align: center;
+    padding: 2%;
+    border-top: 1px solid #000;
+}
+.contato{
+    color: rgb(13, 97, 97);
+    transition: .4s;
+    text-decoration: none;
+    font-weight: bold;
+}
+.contato:hover{
+    color: aqua;
+    text-decoration: none;
+}
+.me{
+    width: 80%;
+}
+/***************************** FIM DA SEÇÃO 1 **************************/
+/***************************** SEÇÃO 2 *********************************/
+#sct-2{
+    padding-top: 3%;
+    padding: 2.5%;
+    background-color: rgb(146, 69, 69);
+    color: #fff;
+}
+#sct-2 h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    text-shadow: 4px 6px 10px #000;
+    margin-bottom: 5%;
+}
+.passa-tempo{
+    text-align: center;
+}
+.passa-tempo-img{
+    border: 5px solid rgb(80, 44, 44) !important;
+    border-radius: 300px;
+}
+#sct-2 h4{
+    text-transform: uppercase;
+    padding-top: 5%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+#sct-2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.passas{
+    text-align: center;
+}
+/***************************** FIM DA SEÇÃO 2 ****************/
+/***************************** SEÇÃO 3 ***********************/
+#sct-3{
+    background-color: rgb(129, 51, 51);
+    padding: 2.5%;
+    color: #fff;
+}
+#sct-3 h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+#sct-3 h4{
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+}
+.linguagem{
+    margin: 2%;
+    width: 80px;
+}
+.linguagem-2{
+    width: 55px;
+    margin: 2%;
+}
+/***************************** FIM DA SEÇÃO 3 ****************/
+/***************************** FOOTER ************************/
+footer{
+    background-color: #251717;
+    padding: 2.5%;
+    color: pink;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer h5{
+    text-transform: uppercase;
+    transition: .4s;
+}
+footer a:hover{
+    color: plum !important;
+
+}
+.rede-img{
+    width: 15%;
+    display: inline;
+}
+.rede-img-2{
+    width: 12%;
+    display: inline;
+}
+.footer-rodape{
+    border-top: 2px solid pink;
+    text-align: center;
+    padding: 1%;
+    margin-top: 2%;
+}
+/***************************** MEDIA *************************/
+/* Extra Small divices */
+@media(max-width: 575.98px){
+    .caixa-1{
+        margin-top: 50%;
+    }
+    #sct-2{
+        padding-top: 10%;
+        text-align: center;
+    }
+    #sct-2 h1{
+        padding-bottom: 10%;
+    }
+    #sct-2 h4{
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        margin-left: 1%;
+    }
+}
+/* Small devices */
+@media(min-width: 576px) and (max-width: 567.98px){
+    #sct-2{
+        padding-top: 10%;
+    }
+}
+/* Medium devices*/
+@media(min-width: 568px) and (max-width: 991.98px){
+    .caixa-1{
+        margin-top: 50%;
+    }
+    .me{
+        width: 80%;
+        padding-top: 50%;
+    }
+    .redes-div{
+        text-align: right;
+    }
+}
+/* Large devices */
+@media(min-width: 992px) and (max-width: 1199.98px){
+    .me{
+        width: 100%;
+        padding-top: 10%;
+        padding-left: 20%;
+    }
+    .redes-div{
+        text-align: right;
+    }
+}
+/* Extra Large devices */
+@media(min-width: 1200px){
+    .caixa-1{
+        margin-top: 5%;
+    }
+    .redes-div{
+        text-align: right;
+    }
+}

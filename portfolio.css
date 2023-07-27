@@ -1,0 +1,339 @@
+/******************************* NAVEGAÇÃO *********************************/
+nav{
+    background-color: rgba(0, 0,0, 0.7);
+    color: #fff;
+}
+nav a{
+    color: #fff !important;
+    text-transform: uppercase;
+    transition: .7s;
+}
+nav a:hover{
+    color: #c1c1c1 !important;
+    text-transform: uppercase;
+    text-decoration: underline !important;
+}
+.logo{
+    width: 52px;
+}
+.fa-bars{
+    color: #fff;
+}
+.ativado{
+    color: gold !important;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.ativado:hover{
+    color: rgb(187, 163, 29) !important;
+    text-decoration: none;
+}
+.divisor{
+    width: 1px;
+    background-color: #fff;
+    margin: 12px 15px;
+}
+/******************************* FIM DA NAVEGAÇÃO **************************/
+/******************************* SEÇÃO 1 ***********************************/
+body, html, #sct-1{
+    width: 100%;
+    height: 100%;
+}
+#sct-1{
+    background: url(./images/back.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding-top: 50%;
+}
+#sct-1 h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 4px 6px 10px #000;
+}
+.digitando::after{
+    content: '|';
+    opacity: 1;
+    animation: pisca .5s infinite;
+}
+/******************************* FIM DA SEÇÃO 1******************************/
+/******************************* SEÇÃO 2 ************************************/
+#sct-2{
+    padding: 2.5%;
+    background-color: rgb(146, 69, 69);
+    color: #fff;
+}
+#sct-2 h2{
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin: 4%;
+    text-align: center;
+}
+/******************************* SITES **************************************/
+.fly-doha{
+    margin-top: 3%;
+    background-color: #8A0808;
+    padding: 2.5%;
+    border: 2px solid #FFBF00;
+    border-radius: 10px;
+    color: #FFBF00;
+}
+.fly-doha-img{
+    width: 100%;
+    border: 3px solid #FFBF00;
+    border-radius: 15px;
+}
+.fly-doha h3{
+    color: #FFBF00;
+    text-transform: uppercase;
+    font-family: 'Noto Naskh Arabic', serif !important;
+}
+.link-port{
+    color: #FFBF00;
+    text-decoration: none;
+    transition: .4s;
+}
+.link-port:hover{
+    color: rgb(167, 143, 13);
+    text-decoration: none;
+}
+.malasia{
+    margin-top: 7.5%;
+    background-color: #212529;
+    padding: 2.5%;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+}
+.malasia-img{
+    border: 3px solid #fff;
+    border-radius: 15px;
+}
+.malasia h3{
+    font-family: Arial, Helvetica, sans-serif !important;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.link-malasia{
+    color: #fff;
+    text-decoration: none;
+    transition: .4s;
+}
+.link-malasia:hover{
+    color: #c1c1c1;
+    text-decoration: none;
+}
+.coursen{
+    margin-top: 7.5%;
+    background-color: #000;
+    padding: 2.5%;
+    border: 2px solid aqua;
+    border-radius: 10px;
+    color: aqua;
+}
+.coursen-img{
+    border: 3px solid aqua;
+    border-radius: 15px;
+}
+.coursen h3{
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.site-cousen{
+    color: aqua;
+    text-decoration: none;
+    transition: .4s;
+}
+.site-cousen:hover{
+    color: aquamarine;
+    text-decoration: none;
+}
+.finans{
+    background-color: #ffc107;
+    margin-top: 7.5%;
+    padding: 2.5%;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.finans-img{
+        border: 3px solid #fff;
+        border-radius: 15px;
+}
+.finans h3{
+    text-transform: uppercase;
+}
+.spotify{
+    background: linear-gradient(50deg,#ff4169,#7c26f8);
+    border: 2px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 7.5%;
+    padding: 2.5%;
+}
+.spotify h3{
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.link-finans{
+    color: #fff;
+    text-decoration: none;
+    transition: .4s;
+}
+.link-finans:hover{
+    color: #c1c1c1;
+    text-decoration: none;
+}
+.spotify a{
+    color: #fff;
+    text-decoration: none;
+    transition: .4s;
+}
+.spotify a:hover{
+    color: #7c26f8;
+    text-decoration: none;
+}
+/******************************* FIM DOS SITES *****************************/
+/******************************* FOOTER ************************************/
+footer{
+    background-color: #251717;
+    padding: 2.5%;
+    color: pink;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer h5{
+    text-transform: uppercase;
+    transition: .4s;
+}
+footer a:hover{
+    color: plum !important;
+
+}
+.rede-img{
+    width: 15%;
+    display: inline;
+}
+.rede-img-2{
+    width: 12%;
+    display: inline;
+}
+.footer-rodape{
+    border-top: 2px solid pink;
+    text-align: center;
+    padding: 1%;
+    margin-top: 2%;
+}
+/******************************* FIM DO FOOTER *****************************/
+/******************************* KEYFRAMES *********************************/
+@keyframes inicializar{
+    from{
+        opacity: 0;
+        transform: translate3d(0, -60px, 0);
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0, -60px, 0);
+    }
+}
+@keyframes pisca{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+/******************************* MEDIA QUERIES ******************************/
+/* Extra Small divices */
+@media(max-width: 575.98px){
+    #sct-1{
+        padding-top: 50%;
+    }
+    .card{
+        font-family: Arial, Helvetica, sans-serif;
+        width: 100%;
+    }
+    #sct-2{
+        padding: 10% 5% 5% 5%;
+    }
+    h3{
+        margin-top: 5%;
+    }
+}
+/* Small devices */
+@media(min-width: 576px) and (max-width: 567.98px){
+    #sct-1{
+        padding-top: 50%;
+    }
+    .card{
+        font-family: Arial, Helvetica, sans-serif;
+        width: 50%;
+    }
+    #sct-2{
+        padding: 10% 5% 5% 5%;
+    }
+    .card{
+        margin-right: 10%;
+    }
+    .malasia h3{
+        margin-top: 5%;
+    }
+    .coursen h3{
+        margin-top: 5%;
+    }
+    h3{
+        margin-top: 5%;
+    }
+}
+/* Medium devices*/
+@media(min-width: 568px) and (max-width: 991.98px){
+    #sct-1{
+        padding-top: 50%;
+    }
+    .card{
+        font-family: Arial, Helvetica, sans-serif;
+        width: 50%;
+    }
+    .tablet{
+        width: 100%;
+    }
+    h3{
+        margin-top: 5%;
+    }
+    .redes-div{
+        text-align: right;
+    }
+}
+/* Large devices */
+@media(min-width: 992px) and (max-width: 1199.98px){
+    #sct-1{
+        padding-top: 25%;
+    }
+    .card{
+        font-family: Arial, Helvetica, sans-serif;
+        width: 30%;
+    }
+    .redes-div{
+        text-align: right;
+    }
+}
+/* Extra Large devices */
+@media(min-width: 1200px){
+    #sct-1{
+        padding-top: 20%;
+    }
+    .card{
+        font-family: Arial, Helvetica, sans-serif;
+        width: 30%;
+    }
+    .redes-div{
+        text-align: right;
+    }
+}

@@ -1,0 +1,400 @@
+/****** NAVEGAÇÃO ********/
+nav{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+.logo{
+    width: 50px;
+}
+nav ul.navbar-nav li a{
+    color: #fff;
+    text-transform: uppercase;
+    transition: .7s;
+}
+.fa-bars{
+    color: white;
+    margin-left: auto;
+}
+nav ul.navbar-nav li a:hover{
+    color: #c1c1c1;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.divisor{
+    width: 1px;
+    margin: 12px 15px;
+    background-color: white;
+}
+.selecionado{
+    color: gold !important;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.selecionado:hover{
+    color: rgb(187, 163, 29) !important;
+    text-decoration: none;
+}
+/****** FIM DA NAVEGAÇÃO ******/
+/****** SEÇÃO 1 *********/
+body, html, #sec-1{
+    width: 100%;
+    height: 100%;
+}
+#sec-1{
+    background: url(./my-images/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    color: #fff;
+}
+#sec-1 h1{
+    text-shadow: 4px 6px 10px #000;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    white-space: pre-wrap;
+}
+.link-botao{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 7px;
+    margin: 2%;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 15px;
+    text-transform: uppercase;
+    margin-top: 3%;
+    transition: .4s;
+}
+.link-botao-2{
+    color: pink;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 7px;
+    margin: 2%;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid pink;
+    border-radius: 15px;
+    text-transform: uppercase;
+    margin-top: 3%;
+    transition: .4s;
+}
+.link-botao:hover{
+    color: #9c9797;
+    border: 2px solid #9c9797;
+    text-decoration: none;
+}
+.link-botao-2:hover{
+    color: rgb(216, 160, 169);
+    border: 2px solid papayawhip;
+    text-decoration: none;
+}
+.digitando::after{
+    content: '|';
+    opacity: 1;
+    animation: pisca .5s infinite;
+}
+/****** FIM DA SEÇÃO 1 ******/
+/****** SEÇÃO 2 **********/
+#sct-2{
+    background-color: rgb(148, 74, 74);
+    padding: 7%;
+    text-align: center;
+}
+.caixa{
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 0;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+.caixa h5{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 2.5%;
+}
+.caixa p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2.5%;
+}
+.caixa a{
+    color: #272525;
+    text-decoration: none;
+    transition: .7s;
+}
+.caixa a:hover{
+    color: #444242;
+}
+.logos-lang{
+    width: 80px;
+    margin: 1%;
+}
+.logos-lang-2{
+    width: 57px;
+    margin: 1%;
+}
+.logos-lang-3{
+    width: 65px;
+    margin: 1%;
+}
+.logos-linguagens{
+    margin-top: 1%;
+    margin-bottom: 3%;
+    padding: 2.5%;
+}
+.caixa-footer{
+    margin: 0;
+    border-top: 1px solid #000;
+    padding: 2.5%;
+}
+.saiba{
+    color: rgb(51, 199, 199) !important;
+    font-weight: bold;
+}
+/****** FIM DA SEÇÃO 2 ********/
+/****** SEÇÃO 3 *********/
+#sct-3{
+    background-color: #6e4040;
+    color: #fff;
+    padding: 2.5%;
+}
+#sct-3 h3{
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+.title{
+    padding: 2.5%;
+}
+.fly-doha{
+    margin-top: 3%;
+    background-color: #8A0808;
+    padding: 2.5%;
+    border: 2px solid #FFBF00;
+    border-radius: 10px;
+    color: #FFBF00;
+}
+.fly-doha-img{
+    width: 100%;
+    border: 3px solid #FFBF00;
+    border-radius: 15px;
+}
+.fly{
+    padding: 2.5%;
+    text-transform: uppercase;
+}
+.fly-doha h3{
+    color: #FFBF00;
+    text-transform: uppercase;
+    font-family: 'Noto Naskh Arabic', serif !important;
+}
+.link-port{
+    color: #FFBF00;
+    text-decoration: none;
+    transition: .4s;
+}
+.link-port:hover{
+    color: rgb(167, 143, 13);
+    text-decoration: none;
+}
+.malasia{
+    margin-top: 7.5%;
+    background-color: #212529;
+    padding: 2.5%;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+}
+.malasia-img{
+    border: 3px solid #fff;
+    border-radius: 15px;
+}
+.malasia h3{
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+.link-malasia{
+    color: #fff;
+    text-decoration: none;
+    transition: .4s;
+}
+.link-malasia:hover{
+    color: #c1c1c1;
+    text-decoration: none;
+}
+.coursen{
+    margin-top: 7.5%;
+    background-color: #000;
+    padding: 2.5%;
+    border: 2px solid aqua;
+    border-radius: 10px;
+    color: aqua;
+}
+.coursen-img{
+    border: 3px solid aqua;
+    border-radius: 15px;
+}
+.coursen h3{
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+}
+.site-cousen{
+    color: aqua;
+    text-decoration: none;
+    transition: .4s;
+}
+.site-cousen:hover{
+    color: aquamarine;
+    text-decoration: none;
+}
+/****** FIM DA SEÇÃO 3 *********/
+/****** FOOTER *******/
+footer{
+    background-color: #251717;
+    padding: 2.5%;
+    color: pink;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer h5{
+    text-transform: uppercase;
+    transition: .4s;
+}
+footer a:hover{
+    color: plum !important;
+
+}
+.rede-img{
+    width: 15%;
+    display: inline;
+}
+.rede-img-2{
+    width: 12%;
+    display: inline;
+}
+.footer-rodape{
+    border-top: 2px solid pink;
+    text-align: center;
+    padding: 1%;
+    margin-top: 2%;
+}
+/****** FIM DO FOOTER ******/
+/***************************** KEYFRAMES ************************/
+@keyframes inicializar{
+    from{
+        opacity: 0;
+        transform: translate3d(0, -60px, 0);
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0, -60px, 0);
+    }
+}
+@keyframes pisca{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+/***************************** MEDIA *************************/
+/* Extra Small divices */
+@media(max-width: 575.98px){
+    #sec-1{
+        padding-top: 70%;
+    }
+    #sec-1 h1{
+        margin-bottom: 5%;
+    }
+    a{
+        display: block;
+    }
+    .fly-doha h3{
+        margin-top: 5%;
+    }
+    .malasia h3{
+        margin-top: 5%;
+    }
+    .coursen h3{
+        margin-top: 5%;
+    }
+    .rede-img{
+        width: 52px;
+        display: inline;
+    }
+    .rede-img-2{
+        width: 48px;
+        display: inline;
+    }
+}
+/* Small devices */
+@media(min-width: 576px) and (max-width: 567.98px){
+    #sec-1{
+        padding-top: 50%;
+    }
+    #sec-1 h1{
+        margin-bottom: 5%;
+    }
+    .fly-doha h3{
+        margin-top: 5%;
+    }
+    .malasia h3{
+        margin-top: 5%;
+    }
+    .coursen h3{
+        margin-top: 5%;
+    }
+}
+/* Medium devices*/
+@media(min-width: 568px) and (max-width: 991.98px){
+    #sec-1{
+        padding-top: 60%;
+    }
+    #sec-1 h1{
+        margin-bottom: 5%;
+    }
+    .caixa{
+        width: 60%;
+        margin-left: 20%;
+    }
+    .redes-div{
+        text-align: right;
+    }
+    .tablet{
+        width: 100%;
+    }
+    h3{
+        margin-top: 5%;
+    }
+}
+/* Large devices */
+@media(min-width: 992px) and (max-width: 1199.98px){
+    #sec-1{
+        padding-top: 25%;
+    }
+    #sec-1 h1{
+        margin-bottom: 5%;
+    }
+    .caixa{
+        width: 60%;
+        margin-left: 20%;
+    }
+    .redes-div{
+        text-align: right;
+    }
+}
+/* Extra Large devices */
+@media(min-width: 1200px){
+    #sec-1{
+        padding-top: 25%;
+    }
+    #sec-1 h1{
+        margin-bottom: 2%;
+    }
+    .caixa{
+        width: 60%;
+        margin-left: 20%;
+    }
+    .redes-div{
+        text-align: right;
+    }
+}
